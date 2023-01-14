@@ -7,9 +7,10 @@
         function aliatorio(min, max) {
             return Math.floor(Math.random()*(max-min+1)+min)
         }
+        let jugador = 0
         let numero = aliatorio(1, 10)
         while (numero != jugador) {
-            let jugador = prompt("Elije un numero: ")
+            jugador = prompt("Elije un numero: ")
             if(jugador < numero) {
                 alert("Elije un numero mas alto")
             } else if(jugador > numero) {
@@ -24,6 +25,5 @@
 </head>
 <body>
     <h1>Te animas a jugar?</h1>
-    <h3>Hola, Riquito</h3>
 </body>
 </html>
