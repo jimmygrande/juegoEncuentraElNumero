@@ -8,7 +8,8 @@
             return Math.floor(Math.random()*(max-min+1)+min)
         }
         let jugador = 0
-        let numero = aliatorio(1, 10)
+        let numero = aliatorio(1, 100)
+        alert("Encuentra el numero del 1 al 100")
         while (numero != jugador) {
             jugador = prompt("Elije un numero: ")
             if(jugador < numero) {
@@ -24,6 +25,6 @@
     </script>
 </head>
 <body>
-    <h1>Te animas a jugar?</h1>
+    <h1>Te animas a jugar de nuevo?</h1>
 </body>
 </html>
